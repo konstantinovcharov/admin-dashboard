@@ -1,3 +1,94 @@
 .container{
     border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 2.5fr 2.5fr;
+    
+}
+
+.sidebar{
+    border: 1px solid black;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.menu-one{
+    border: 1px solid black;
+}
+
+.menu-two{
+    border: 1px solid black;
+}
+
+.header{
+    border: 1px solid black;
+    grid-column:2/3;
+    grid-row:1/2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input{
+    border: 1px solid black;
+}
+
+.set-one{
+    border: 1px solid black;
+}
+
+.set-two{
+    border: 1px solid black;
+}
+
+.set-buttons{
+    border: 1px solid black;
+}
+
+.Main-Section{
+    border: 1px solid black;
+    grid-column: 2/3;
+    grid-row:2/4;
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.projects{
+    border: 1px solid black;
+    grid-column: 1/3;
+    grid-row:1/3;    
+}
+
+.project-title{
+    border: 1px solid black;
+}
+
+.article{
+    border: 1px solid black;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+.announcement-section{
+    border:1px solid black;
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+
+.announcement-card{
+    border: 1px solid black;
+}
+
+.trending{
+    border: 1px solid black;
+    grid-column: 3/4;
+    grid-row:2/3;
+}
+
+.trending-card{
+    border: 1px solid black;
 }
