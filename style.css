@@ -7,9 +7,9 @@ html,body{
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 3fr 3fr;
-    
-
+    background-color:#e2e8f0;
 }
+
 *{
     font-family: 'Roboto Slab', serif;
 }
@@ -48,6 +48,8 @@ li{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
+    background-color: white;
+    box-shadow: 2px 5px 8px #888888;
     
 }
 
@@ -73,7 +75,7 @@ li{
     border-radius: 25px;
     outline: none;
     color: #07130d;
-    padding:3px;
+    
 }
 
 .set-one{    
@@ -171,7 +173,7 @@ li{
     display: grid;
     grid-template-columns: 3fr 3fr 2fr;
     grid-template-rows: 1fr 1fr;
-    background-color:#e2e8f0;
+    
 }
 
 .projects{
