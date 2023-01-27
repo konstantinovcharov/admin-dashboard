@@ -50,7 +50,8 @@ li{
     grid-template-rows: 1fr 2fr;
     background-color: white;
     box-shadow: 2px 5px 8px #888888;
-    
+    position: sticky;
+    top: 0;    
 }
 
 .input{    
